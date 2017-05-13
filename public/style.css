@@ -8,43 +8,34 @@ h1
   color: #FFFF00;
   font-family: sans-serif;
   font-size: 48px;
-  font-decoration: underline;
+  text-decoration: underline;
 }
 
-#buttonArray
+#signedOutTable
 {
-  color: #ffff00;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FFFF00;
   font-family: sans-serif;
   font-size: 24px;
-border-width: 2px;
-  border-color: #000;
-  border-style: solid;
-  border-collapse: collapse;
 }
 
-#buttonArray th,td
+#signedOutTable td
 {
-  border-width: 2px;
-  border-color: #000;
-  border-style: solid;
+  border: 3px solid #FFFF00;
+  color: inherit;
+  text-align: inherit;
+  font-family: inherit;
+  font-size: 12px;
+
 }
 
-#buttonArray a
+#buttons
 {
-  color:inherit;
-}
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width : auto;
 
-#nameTable
-{
-  color: #ffff00;
-  font-family: sans-serif;
-  font-size: 36px;
-  text-decoration-line: underline;
-}
-
-#nameList
-{
-  color: #ffff00;
-  font-family: sans-serif;
-  font-size: 24px;
 }
