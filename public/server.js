@@ -11,7 +11,7 @@ var students = {
     sign: false
   },
   noah:{
-    name: "Noah Burk",
+    name: "Noah Burck",
     sign: false
   }
 }
