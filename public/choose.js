@@ -7,12 +7,25 @@ Object.size = function(obj) {
 };
 
 $(document).ready(function(){
-  $.getJSON("/listofnames", {}, function(dat, stat){
-    console.log(dat);
+  // $.getJSON("/listofnames", {}, function(dat, stat){
+  //   console.log(dat);
+    var dat = {
+      chris: {
+        name: "Chris Evans",
+        sign: true
+      },
+      jackson: {
+        name: "Jackson Perkins",
+        sign: false
+      },
+      noah:{
+        name: "Noah Burk",
+        sign: false
+      }
+    }
     for (var i in dat){
       if (dat.hasOwnProperty(i)) {
-        $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name; + "</td><td>" + dat[i].sign + "</td></tr>");
+        $("#name_a").append("<tr><td>" + dat[i].name + "</td><td>" + dat[i].sign + "</td></tr>");
       }
     }
   });
-});
