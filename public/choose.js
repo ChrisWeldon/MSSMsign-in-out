@@ -21,17 +21,19 @@ $(document).ready(function(){
         sign: false
       },
       noah:{
-        name: "Noah Burk",
+        name: "Noah Burck",
         sign: false
       }
     }
-    for(var k = 0; k < 26; k++){
-      $("#name_").append(
-        "<tr>\n<table id=\"name_\"" + alphabet[k] + "class=\"nameTable\">\n<th>" + alphabet[k].toUpperCase() + "</th>\n</table>\n</tr>");
+    for(var i in alphabet){
+      if (alphabet.hasOwnProperty(i)) {
+      //  $("#NAME").append("<tr>\n<table id=\"name_" + alphabet[i] + "\" class=\"nameTable\">\n<tr>\n<th>" + alphabet[i].toUpperCase() + "<\/th>\n<\/tr>\n<\/table>\n<\/tr>");
+        $("#NAME").append("<tr>\n<table id=\"name_" + alphabet[i] + "\" class=\"nameTable\">\n<tr>\n<th>" + alphabet[i].toUpperCase() + "<\/th>\n<\/tr>\n<\/table>\n<\/tr>");
+      }
     }
     for (var i in dat){
       if (dat.hasOwnProperty(i)) {
-        $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "</td><td>" + dat[i].sign + "</td></tr>");
+        $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "<\/td><td>" + dat[i].sign + "<\/td><\/tr>");
       }
     }
   });
