@@ -1,0 +1,19 @@
+{
+  "name": "mssmsignin",
+  "version": "0.0.1",
+  "description": "mssm sign in stuff ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisWeldon/MSSMsign-in-out.git"
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisWeldon/MSSMsign-in-out/issues"
+  },
+  "homepage": "https://github.com/ChrisWeldon/MSSMsign-in-out#readme"
+}
