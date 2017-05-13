@@ -8,6 +8,7 @@ h1
   color: #FFFF00;
   font-family: sans-serif;
   font-size: 48px;
+  font-decoration: underline;
 }
 
 #buttonArray
@@ -31,4 +32,19 @@ border-width: 2px;
 #buttonArray a
 {
   color:inherit;
+}
+
+#nameTable
+{
+  color: #ffff00;
+  font-family: sans-serif;
+  font-size: 36px;
+  text-decoration-line: underline;
+}
+
+#nameList
+{
+  color: #ffff00;
+  font-family: sans-serif;
+  font-size: 24px;
 }
