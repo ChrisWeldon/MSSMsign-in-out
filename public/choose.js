@@ -9,6 +9,8 @@ Object.size = function(obj) {
 $(document).ready(function(){
   // $.getJSON("/listofnames", {}, function(dat, stat){
   //   console.log(dat);
+  var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
+   "t", "u", "v", "w", "x", "y", "z"];
     var dat = {
       chris: {
         name: "Chris Evans",
@@ -23,9 +25,13 @@ $(document).ready(function(){
         sign: false
       }
     }
+    for(var k = 0; k < 26; k++){
+      $("#name_").append(
+        "<tr>\n<table id=\"name_\"" + alphabet[k] + "class=\"nameTable\">\n<th>" + alphabet[k].toUpperCase() + "</th>\n</table>\n</tr>");
+    }
     for (var i in dat){
       if (dat.hasOwnProperty(i)) {
-        $("#name_a").append("<tr><td>" + dat[i].name + "</td><td>" + dat[i].sign + "</td></tr>");
+        $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "</td><td>" + dat[i].sign + "</td></tr>");
       }
     }
   });
