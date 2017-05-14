@@ -1,11 +1,3 @@
-Object.size = function(obj) {
-    var size = 0, key;
-    for (key in obj) {
-        if (obj.hasOwnProperty(key)) size++;
-    }
-    return size;
-};
-
 $(document).ready(function(){
   // $.getJSON("/listofnames", {}, function(dat, stat){
   //   console.log(dat);
@@ -14,31 +6,31 @@ $(document).ready(function(){
     var dat = {
       chris: {
         name: "Chris Evans",
-        sign: true
+        signedIn: true
       },
       jackson: {
         name: "Jackson Perkins",
-        sign: false
+        signedIn: false
       },
       noah:{
         name: "Noah Burck",
-        sign: false
+        signedIn: false
       }
     }
-    if(decodeURIComponent(window.location.href).search("1")!=-1){
+    if(decodeURIComponent(window.location.href).search("signOut")!=-1){
       $("#title").append("<h1>Signing out.");
     }
-    else{
+    else if(decodeURIComponent(window.location.href).search("signIn")!=-1){
       $("#title").append("<h1>Signing in.");
     }
     for(var i in alphabet){
       if (alphabet.hasOwnProperty(i)) {
-        $("#NAME").append("<tr><table id=\"name_" + alphabet[i] + "\"><tr><th>" + alphabet[i] + "</th></tr></table></tr>");
+        $("#NAME").append("<tr><table><tr><th id=\"name_" + alphabet[i] + "\">" + alphabet[i].toUpperCase() + "</th></tr></table></tr>");
       }
     }
     for (var i in dat){
       if (dat.hasOwnProperty(i)) {
-        $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "<\/td><td>" + dat[i].sign + "<\/td><\/tr>");
+        $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "</td><td>" + function(){if(dat[i].signedIn){return "signed in";} else{return "signed out";}}() + "</td></tr>");
       }
     }
   });

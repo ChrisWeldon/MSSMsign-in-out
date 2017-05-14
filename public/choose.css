@@ -39,6 +39,7 @@ border-width: 2px;
   color: #ffff00;
   font-family: sans-serif;
   font-size: 36px;
+  text-align: left;
   text-decoration-line: underline;
 }
 
@@ -47,4 +48,10 @@ border-width: 2px;
   color: #ffff00;
   font-family: sans-serif;
   font-size: 24px;
+  text-align: left;
+}
+
+#NAME tr th
+{
+  padding-top: 25px;
 }
