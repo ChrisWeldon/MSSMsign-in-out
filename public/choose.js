@@ -25,6 +25,12 @@ $(document).ready(function(){
         sign: false
       }
     }
+    if(decodeURIComponent(window.location.href).search("1")!=-1){
+      $("#title").append("<h1>Signing out.");
+    }
+    else{
+      $("#title").append("<h1>Signing in.");
+    }
     for(var i in alphabet){
       if (alphabet.hasOwnProperty(i)) {
         $("#NAME").append("<tr><table id=\"name_" + alphabet[i] + "\"><tr><th>" + alphabet[i] + "</th></tr></table></tr>");

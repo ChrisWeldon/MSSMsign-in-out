@@ -1,8 +1,8 @@
 function signIn(){
-  redirect("choose.html");
+  window.location.href = "choose.html?index=0";
 }
 function signOut(){
-  redirect("choose.html");
+  window.location.href = "choose.html?index=1";
 }
 $(document).ready(function(){
 
