@@ -17,6 +17,21 @@ $(document).ready(function(){
         signedIn: false
       }
     }
+    for(var i =0; i<6; i++){
+      $("#buttonArray").append("<tr id=\"" + i.toString() + "\">");
+      if(i<6){
+        for(var j = 0; j<5; j++){
+          $("#"+(i*6).toString()).append("<td><a href=\"#name_" + alphabet[(i*6)+j] + "\">" + alphabet[(i*6)+j]+ "</a></td>");
+        }
+      }
+      else{
+        for(var j = 0; j<5; j++){
+          $("#"+i.toString()).append("<td><a href=\"#name_" + alphabet[i+j] + "\">" + alphabet[i+j]+ "</a></td>");
+        }
+      }
+      $("#"+i.toString()).append("</tr>");
+    }
+
     if(decodeURIComponent(window.location.href).search("signOut")!=-1){
       $("#title").append("<h1>Signing out.");
     }
