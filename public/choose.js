@@ -16,26 +16,12 @@ $(document).ready(function(){
       signedIn: false
     }
   };
-  // for(var i =0; i<6; i++){
-  //   $("#buttonArray").append("<tr id=\"" + i.toString() + "\">");
-  //   if(i<6){
-  //     for(var j = 0; j<5; j++){
-  //       $("#"+(i*6).toString()).append("<td><a href=\"#name_" + alphabet[(i*6)+j] + "\">" + alphabet[(i*6)+j]+ "</a></td>");
-  //     }
-  //   }
-  //   else{
-  //     for(var j = 0; j<5; j++){
-  //       $("#"+i.toString()).append("<td><a href=\"#name_" + alphabet[i+j] + "\">" + alphabet[i+j]+ "</a></td>");
-  //     }
-  //   }
-  //   $("#"+i.toString()).append("</tr>");
-  // }
+
   $("#buttonArray").append("<tr>");
   for (var i in alphabet){
         $("#buttonArray").append("<td><a href=\"#name_" + alphabet[i] + "\">"+ alphabet[i] + "</a></td>");
         if (i % 7 == 6) {
           $("#buttonArray").append("</tr><tr>");
-          console.log(alphabet[i]);
       }
   }
   $("#buttonArray").append("</tr>");
@@ -51,8 +37,16 @@ $(document).ready(function(){
     }
   }
   for (var i in dat){
-    if (dat.hasOwnProperty(i)) {
-      $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "</td><td>" + function(){if(dat[i].signedIn){return "signed in";} else{return "signed out";}}() + "</td></tr>");
-    }
+    $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "</td><td>" + function(){if(dat[i].signedIn){return "Signed in</td><td id=\"" + i + "\" class=\"sign\">Sign out";} else{return "Signed out</td><td id=\"" + i + "\" class=\"sign\">Sign in";}}() + "</td></tr>");
   }
+
+  $(".sign").click(function(){
+    dat[$(this).attr('id')].signedIn=!dat[$(this).attr('id')].signedIn;
+    if(!dat[$(this).attr('id')].signedIn){
+      //go to sign out page
+    }
+    else{
+      window.location.reload();
+    }
+  })
 });
