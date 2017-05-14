@@ -27,8 +27,7 @@ $(document).ready(function(){
     }
     for(var i in alphabet){
       if (alphabet.hasOwnProperty(i)) {
-      //  $("#NAME").append("<tr>\n<table id=\"name_" + alphabet[i] + "\" class=\"nameTable\">\n<tr>\n<th>" + alphabet[i].toUpperCase() + "<\/th>\n<\/tr>\n<\/table>\n<\/tr>");
-        $("#NAME").append("<tr>\n<table id=\"name_" + alphabet[i] + "\" class=\"nameTable\">\n<tr>\n<th>" + alphabet[i].toUpperCase() + "<\/th>\n<\/tr>\n<\/table>\n<\/tr>");
+        $("#NAME").append("<tr><table id=\"name_" + alphabet[i] + "\"><tr><th>" + alphabet[i] + "</th></tr></table></tr>");
       }
     }
     for (var i in dat){
