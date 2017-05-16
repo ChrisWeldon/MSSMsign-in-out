@@ -24,7 +24,7 @@ $(document).ready(function(){
           return "Signed in</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signOut(\"" + dat[i].id + "\")\'>Sign Out</button>";
         }else{
           $("#signedOutTable").append("<tr><td>" +
-          dat[i].name + "</td><td>" + dat[i].timeOut + "</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button></td></tr>");
+          dat[i].name + "</td><td>" + dat[i].timeOut + "</td><td>" + dat[i].dateOut + "</td><td>" + dat[i].dest + "</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button></td></tr>");
           return "Signed out</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button>";}
         }() + "</td></tr>");
     }
@@ -44,5 +44,6 @@ function signIn(student){
 }
 function signOut(student){
   $.post("/signOut", {student: students[student].id});
-  window.location.reload();
+  window.location.replace("/destinations.html");
+  //window.location.reload();
 }

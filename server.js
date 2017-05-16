@@ -5,26 +5,32 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
+var currentStudent;
 
 var students = {
   evansc: {
     name: "Chris Evans",
     signedIn: true,
     id:"evansc",
-    timeOut: 0
+    timeOut: 0,
+    dateOut: 0,
+    dest: null
   },
   perkinsj: {
     name: "Jackson Perkins",
-    signedIn: false,
+    signedIn: true,
     id:"perkinsj",
-    timeOut: 0
+    timeOut: 0,
+    dateOut: 0,
+    dest: null
   },
   burckn:{
     name: "Noah Burck",
-    signedIn: false,
+    signedIn: true,
     id:"burckn",
-    timeOut: 0
-
+    timeOut: 0,
+    dateOut: 0,
+    dest: null
   }
 };
 
@@ -45,8 +51,16 @@ app.post("/signIn", function(req,res){
 app.post("/signOut", function(req,res){
   console.log("signOut POST Called!");
   students[req.body.student].timeOut = getTime();
+  students[req.body.student].dateOut= getDate();
   students[req.body.student].signedIn = false;
+  currentStudent = req.body.student;
 
+});
+
+app.post("/destinations.html",function(req, res){
+  console.log(req.body.dest);
+  students[currentStudent].dest = req.body.dest;
+  res.redirect("/");
 });
 
 function getTime() {
@@ -79,7 +93,7 @@ function getDate(){
   var day  = date.getDate();
   day = (day < 10 ? "0" : "") + day;
 
-  return year + ":" + month + ":" + day;
+  return month + "/" + day + "/" + year;
 
 }
 
