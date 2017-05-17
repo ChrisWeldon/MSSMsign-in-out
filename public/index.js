@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     $("#buttonArray").append("<tr>");
     for (var i in alphabet){
-          $("#buttonArray").append("<td><a href=\"#name_" + alphabet[i] + "\">"+ alphabet[i] + "</a></td>");
+          $("#buttonArray").append("<td><a href=\"#name_" + alphabet[i] + "\">"+ alphabet[i].toUpperCase() + "</a></td>");
           if (i % 7 == 6) {
             $("#buttonArray").append("</tr><tr>");
         }
@@ -21,11 +21,11 @@ $(document).ready(function(){
     for (var i in dat){
       $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td>" + dat[i].name + "</td><td>" + function(){
         if(dat[i].signedIn){
-          return "Signed in</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signOut(\"" + dat[i].id + "\")\'>Sign Out</button>";
+          return "Signed in</td><td id=\"" + i + "\" class=\"sign\"><button class=\"signout-button\" onclick=\'signOut(\"" + dat[i].id + "\")\'>Sign Out</button>";
         }else{
           $("#signedOutTable").append("<tr><td>" +
-          dat[i].name + "</td><td>" + dat[i].timeOut + "</td><td>" + dat[i].dateOut + "</td><td>" + dat[i].dest + "</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button></td></tr>");
-          return "Signed out</td><td id=\"" + i + "\" class=\"sign\"><button onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button>";}
+          dat[i].name + "</td><td>" + dat[i].timeOut + "</td><td>" + dat[i].dateOut + "</td><td>" + dat[i].dest + "</td><td id=\"" + i + "\" class=\"sign\"><button class=\"signin-button\" onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button></td></tr>");
+          return "Signed out</td><td id=\"" + i + "\" class=\"sign\"><button class=\"signin-button\" onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button>";}
         }() + "</td></tr>");
     }
 
@@ -46,4 +46,16 @@ function signOut(student){
   $.post("/signOut", {student: students[student].id});
   window.location.replace("/destinations.html");
   //window.location.reload();
+}
+
+window.setInterval(function(){
+  $.getJSON("/listofnames", function(dat, stat){
+    if(dat != students){
+      window.location.reload();
+    }
+  });
+}, 60000);
+
+function refresh(){
+
 }
