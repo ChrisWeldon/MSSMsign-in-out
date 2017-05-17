@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ChrisWeldon/MSSMsign-in-out/issues"
   },
-  "homepage": "https://github.com/ChrisWeldon/MSSMsign-in-out#readme"
+  "homepage": "https://github.com/ChrisWeldon/MSSMsign-in-out#readme",
+  "dependencies": {
+    "sanitizer": "^0.1.3"
+  }
 }
