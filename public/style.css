@@ -5,7 +5,7 @@ body
 h1
 {
   text-align: center;
-  color: #FFFF00; //yellow
+  color: black;
   font-family: sans-serif;
   font-size: 48px;
   text-decoration: underline;
@@ -19,14 +19,18 @@ h1
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  color: #FFFF00; //yellow
+  color: black;
   font-family: sans-serif;
   font-size: 24px;
+}
+#signout-row{
+  height:30px;
+  max-height: 40px;
 }
 
 #signedOutTable td
 {
-  border: 3px solid #FFFF00;
+  border: 3px solid black;
   color: inherit;
   text-align: inherit;
   font-family: inherit;
@@ -40,7 +44,7 @@ h1
   margin-right: auto;
   margin-top: 2%;
   margin-bottom: 2%;
-  color: #ffff00;
+  color: black;
   font-family: sans-serif;
   font-size: 24px;
   border-width: 2px;
@@ -50,6 +54,8 @@ h1
   text-align: center;
   font-size: 30;
   color:inherit;
+  align-self: flex-start;
+  padding: 10px;
 }
 
 #buttonArray th,td
@@ -62,7 +68,7 @@ h1
 
 #buttonArray td a
 {
-  color: #ffff00;
+  color: #black;
   font-size: inherit;
   font-family: inherit;
   text-align: inherit;
@@ -71,20 +77,76 @@ h1
 
 #nameTable
 {
-  color: #ffff00;
+  color: black;
   font-family: sans-serif;
   font-size: 36px;
   text-align: left;
   text-decoration-line: underline;
+  align-self: center;
 }
 
-#nameList
-{
-  color: #ffff00;
+#nameList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
   font-family: sans-serif;
   font-size: 24px;
   text-align: left;
+  height: 40%;
+  overflow-y: scroll;
+  border-top: 2px solid black;
 }
+
+#name-td{
+  width: 500px;
+}
+
+#title{
+  width:wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("MSSM-Dorm.jpg");
+  background-size: cover;
+  background-position:center;
+}
+
+#title h1{
+  text-decoration: none;
+  color: black;
+}
+
+#signedOut{
+  background-color: white;
+  width: 40%;
+  align-self: center;
+  margin: 10px;
+  border-radius: 4px;
+  opacity: 50%;
+  border: 2px solid black;
+}
+#letterInput{
+  background-color: white;
+  width: 30%;
+  align-self: center;
+  border-radius: 4px;
+  opacity: 50%;
+  margin:10px;
+  border: 2px solid black;
+}
+
+#nameList{
+  background-color: white;
+  display: flex;
+}
+#logo{
+  width:287px;
+  height:147px;
+  align-self: center;
+}
+
 
 #NAME tr th
 {
@@ -92,7 +154,7 @@ h1
 }
 
 .signout-button{
-  background-color: #f44336; /* red */
+    background-color: #f44336; /* red */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -103,7 +165,7 @@ h1
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
-
+    width: 140px;
 }
 
 .signin-button{
@@ -118,23 +180,41 @@ h1
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    width: 140px;
 }
+.signin-button-log{
+    background-color: #4CAF50; /* green */
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 
 .dest-buttons{
-  font-size: 30px;
-  font-family: sans-serif;
-  color: #FFFF00;
-  text-decoration: underline;
-  background-color: #0f489e;
-  border: solid black 2px;
-  padding: auto;
+    background-color: #4CAF50; /* green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
 }
-
-.input_bar{
-  height: 30px;
-  font-size: 30px;
-}
-
-#form{
-  text-align: center;
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
 }
