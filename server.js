@@ -10,7 +10,7 @@ var sanitizer = require("sanitizer");
 
 
 var obj = JSON.parse(fs.readFileSync('studentdir.json', 'utf8'));
-
+var log = JSON.parse(fs.readFileSync('log.json', 'utf8'));
 
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
@@ -37,6 +37,7 @@ next(); // <-- important!
 });*/
 
 var students = {};
+var events = [];
 
 function makestudents(_name, _last, _first,  _signedIn, _id, _timeOut, _dateOut, _dest){
   var id = _id;
@@ -53,6 +54,18 @@ function makestudents(_name, _last, _first,  _signedIn, _id, _timeOut, _dateOut,
   students[id] = anObj;
 }
 
+function makeevent(_name, _destination, _timeOut, _dateOut, _timeIn, _dateIn){
+  var eventobj={
+    name: _name,
+    dest: _destination,
+    timeOut: _timeOut,
+    dateOut: _dateOut,
+    timeIn: _timeIn,
+    dateIn: _dateIn
+  }
+  events.push(eventobj);
+}
+
 for (var names in obj) {
   if (obj.hasOwnProperty(names)) {
     //console.log(names + " -> " + obj[names].last);
@@ -61,15 +74,24 @@ for (var names in obj) {
   }
 }
 
+for(var e in log){
+  makeevent(e.name, e.destination, e.timeOut, e.dateOut, e.timeIn, e.dateIn);
+}
+
 console.log(students);
 
 
 app.get('/',function(req,res){
-
   res.redirect("/index.html");
-
 });
 
+app.get("/log", function(req, res){
+  res.redirect("/log.html");
+});
+
+app.get("/events", function(req, res){
+  res.send(events);
+});
 
 app.get("/listofnames", function(req, res){
   res.send(students);
@@ -77,6 +99,14 @@ app.get("/listofnames", function(req, res){
 
 
 app.post("/signIn", function(req,res){
+  events.unshift({
+    name: students[req.body.student].name,
+    dest: students[req.body.student].dest,
+    timeOut: students[req.body.student].timeOut,
+    dateOut: students[req.body.student].dateOut,
+    timeIn: getTime(),
+    dateIn: getDate()
+  });
   console.log("signIn POST Called!");
   console.log("sign in "+ req.body.student);
   students[req.body.student].signedIn = true;
@@ -84,8 +114,9 @@ app.post("/signIn", function(req,res){
   students[req.body.student].timeOut = 0;
   students[req.body.student].dateOut = 0;
   console.log(students[req.body.student]);
-  fs.writeFileSync('studentdir.json', JSON.stringify(students, null, 4));
+  fs.writeFileSync("studentdir.json", JSON.stringify(students, null, 4));
   fs.appendFileSync("logfile.log", "signIn POST Called on student " + students[req.body.student].name + "\nDate/Time: " + getDate() +"/" + getTime() + "\n\n");
+  fs.writeFileSync("log.json", JSON.stringify(events, null, 4));
 });
 
 app.post("/getCookie", function(req,res){
