@@ -27,7 +27,8 @@ h1
 
 #signedOutTable td
 {
-  border: 3px solid black;
+  border: 2px solid gray;
+  border-radius: 2px;
   color: inherit;
   text-align: inherit;
   font-family: inherit;
@@ -44,10 +45,10 @@ h1
   color: black;
   font-family: sans-serif;
   font-size: 24px;
-  border-width: 2px;
+  /*border-width: 2px;
   border-color: #000;
   border-style: solid;
-  border-collapse: collapse;
+  border-collapse: collapse;*/
   text-align: center;
   font-size: 30;
   color:inherit;
@@ -57,10 +58,30 @@ h1
 
 #buttonArray th,td
 {
-  color: inherit;
+  color: blue;
   border-width: 2px;
-  border-color: #000;
+  border-color: gray;
   border-style: solid;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.form-div{
+  align-self: center;
+}
+
+#form{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 #buttonArray td a
@@ -117,6 +138,10 @@ h1
   color: black;
 }
 
+.sign-title{
+  border-bottom: 2px solid black;
+}
+
 #signedOut{
   background-color: white;
   align-self: center;
@@ -163,7 +188,10 @@ h1
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    align-self: center;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
     border-radius: 4px;
     width: 140px;
@@ -218,4 +246,14 @@ body {
   overflow: auto;
   margin: 0px;
   padding: 0px;
+}
+#dest-title{
+  text-decoration: none;
+}
+
+#dest-back{
+  background-image: url("MSSM-Dorm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
