@@ -27,7 +27,7 @@ h1
 
 #signedOutTable td
 {
-  border: 3px solid #FFFF00;
+  border: 3px solid black;
   color: inherit;
   text-align: inherit;
   font-family: inherit;
@@ -41,7 +41,7 @@ h1
   margin-right: auto;
   margin-top: 2%;
   margin-bottom: 2%;
-  color: #ffff00;
+  color: black;
   font-family: sans-serif;
   font-size: 24px;
   border-width: 2px;
@@ -93,6 +93,7 @@ h1
   text-align: left;
   height: 40%;
   overflow-y: scroll;
+  border-top: 2px solid black;
 }
 
 #name-td{
@@ -119,8 +120,9 @@ h1
   width: 40%;
   align-self: center;
   margin: 10px;
-  border-radius: 2px;
+  border-radius: 4px;
   opacity: 50%;
+  border: 2px solid black;
 }
 #letterInput{
   background-color: white;
@@ -129,6 +131,7 @@ h1
   border-radius: 4px;
   opacity: 50%;
   margin:10px;
+  border: 2px solid black;
 }
 
 #nameList{
