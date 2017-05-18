@@ -153,6 +153,18 @@ h1
   padding-top: 25px;
 }
 
+#form{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#input_bar{
+  height: 47px;
+  font-size: 24px;
+  margin: 4px 2px;
+}
+
 .signout-button{
     background-color: #f44336; /* red */
     border: none;
@@ -203,10 +215,13 @@ h1
     color: white;
     padding: 15px 32px;
     text-align: center;
+    align-self: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
     border-radius: 4px;
 }
