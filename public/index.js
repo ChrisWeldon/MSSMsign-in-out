@@ -19,13 +19,13 @@ $(document).ready(function(){
       }
     }
     for (var i in dat){
-      $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td id=\"name-td\">" + dat[i].name + "</td><td>" + function(){
+      $("#name_" + dat[i].name.substr(0,1).toLowerCase()).append("<tr><td id=\"name-td\">" + dat[i].name + "</td>" + function(){
         if(dat[i].signedIn){
-          return "Signed in</td><td id=\"" + i + "\" class=\"sign\"><button class=\"signout-button\" onclick=\'signOut(\"" + dat[i].id + "\")\'>Sign Out</button>";
+          return "<td id=\"" + i + "\" class=\"sign\"><button class=\"signout-button\" onclick=\'signOut(\"" + dat[i].id + "\")\'>Sign Out</button>";
         }else{
           $("#signedOutTable").append("<tr id=\'signout-row\'><td>" +
           dat[i].name + "</td><td>" + dat[i].timeOut + "</td><td>" + dat[i].dateOut + "</td><td>" + dat[i].dest + "</td><td id=\"" + i + "\" class=\"sign\"><button class=\"signin-button-log\" onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button></td></tr>");
-          return "Signed out</td><td id=\"" + i + "\" class=\"sign\"><button class=\"signin-button\" onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button>";}
+          return "<td id=\"" + i + "\" class=\"sign\"><button class=\"signin-button\" onclick=\'signIn(\"" + dat[i].id + "\")\'>Sign In</button>";}
         }() + "</td></tr>");
     }
 

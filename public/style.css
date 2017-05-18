@@ -94,10 +94,12 @@ h1
   height: 40%;
   overflow-y: scroll;
   border-top: 2px solid black;
+  text-decoration: none;
 }
 
 #name-td{
   width: 500px;
+  text-decoration: none;
 }
 
 #title{
@@ -117,21 +119,23 @@ h1
 
 #signedOut{
   background-color: white;
-  width: 40%;
   align-self: center;
   margin: 10px;
   border-radius: 4px;
   opacity: 50%;
   border: 2px solid black;
+  display: inline-block;
+  padding: 10px;
 }
 #letterInput{
   background-color: white;
-  width: 30%;
   align-self: center;
   border-radius: 4px;
   opacity: 50%;
   margin:10px;
   border: 2px solid black;
+  display: inline-block;
+  padding: 10px
 }
 
 #nameList{
