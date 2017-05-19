@@ -75,7 +75,7 @@ for (var names in obj) {
 }
 
 for(var e in log){
-  makeevent(e.name, e.destination, e.timeOut, e.dateOut, e.timeIn, e.dateIn);
+  makeevent(log[e].name, log[e].dest, log[e].timeOut, log[e].dateOut, log[e].timeIn, log[e].dateIn);
 }
 
 console.log(students);
@@ -170,7 +170,6 @@ function getDate(){
   day = (day < 10 ? "0" : "") + day;
 
   return month + "/" + day + "/" + year;
-
 }
 
 
