@@ -9,36 +9,6 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "AlfonsettiD": {
-        "name": "Daniel Alfonsetti",
-        "first": "Daniel",
-        "last": "Alfonsetti",
-        "signedIn": true,
-        "id": "AlfonsettiD",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "AllenM": {
-        "name": "Madison Allen",
-        "first": "Madison",
-        "last": "Allen",
-        "signedIn": true,
-        "id": "AllenM",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "AllenS": {
-        "name": "Sadie Allen",
-        "first": "Sadie",
-        "last": "Allen",
-        "signedIn": true,
-        "id": "AllenS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "AmmermanI": {
         "name": "Ian Ammerman",
         "first": "Ian",
@@ -49,12 +19,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "ArminanA": {
-        "name": "Alyssa Arminan",
-        "first": "Alyssa",
-        "last": "Arminan",
+    "BaeD": {
+        "name": "Dahoon Bae",
+        "first": "Dahoon",
+        "last": "Bae",
         "signedIn": true,
-        "id": "ArminanA",
+        "id": "BaeD",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -69,42 +39,32 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "BarbG": {
-        "name": "Garrett Barb",
-        "first": "Garrett",
-        "last": "Barb",
-        "signedIn": true,
-        "id": "BarbG",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "BarkmanB": {
-        "name": "Blake Barkman",
-        "first": "Blake",
-        "last": "Barkman",
-        "signedIn": true,
-        "id": "BarkmanB",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "Battcock­-EmersonS": {
-        "name": "Samuel Battcock­-Emerson",
-        "first": "Samuel",
-        "last": "Battcock­-Emerson",
-        "signedIn": true,
-        "id": "Battcock­-EmersonS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "​Battcock-­EmersonM": {
-        "name": "Madelyn ​Battcock-­Emerson",
+    "Battcock-EmersonM": {
+        "name": "Madelyn Battcock-Emerson",
         "first": "Madelyn",
-        "last": "​Battcock-­Emerson",
+        "last": "Battcock-Emerson",
         "signedIn": true,
-        "id": "​Battcock-­EmersonM",
+        "id": "Battcock-EmersonM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "Battcock-EmersonS": {
+        "name": "Samuel Battcock-Emerson",
+        "first": "Samuel",
+        "last": "Battcock-Emerson",
+        "signedIn": true,
+        "id": "Battcock-EmersonS",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "BenicaM": {
+        "name": "Myles Benica",
+        "first": "Myles",
+        "last": "Benica",
+        "signedIn": true,
+        "id": "BenicaM",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -115,6 +75,16 @@
         "last": "Berry",
         "signedIn": true,
         "id": "BerryR",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "BetkoS": {
+        "name": "Sage Betko",
+        "first": "Sage",
+        "last": "Betko",
+        "signedIn": true,
+        "id": "BetkoS",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -149,12 +119,42 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "BrowerD": {
+        "name": "Daniel Brower",
+        "first": "Daniel",
+        "last": "Brower",
+        "signedIn": true,
+        "id": "BrowerD",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "BrozmanM": {
+        "name": "Martin Brozman",
+        "first": "Martin",
+        "last": "Brozman",
+        "signedIn": true,
+        "id": "BrozmanM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "BurckN": {
         "name": "Noah Burck",
         "first": "Noah",
         "last": "Burck",
         "signedIn": true,
         "id": "BurckN",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "ChagnonC": {
+        "name": "Christian Chagnon",
+        "first": "Christian",
+        "last": "Chagnon",
+        "signedIn": true,
+        "id": "ChagnonC",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -169,22 +169,22 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "ChalmersW": {
+        "name": "Wesley Chalmers",
+        "first": "Wesley",
+        "last": "Chalmers",
+        "signedIn": true,
+        "id": "ChalmersW",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "ChenA": {
         "name": "Amanda Chen",
         "first": "Amanda",
         "last": "Chen",
         "signedIn": true,
         "id": "ChenA",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "ChengP": {
-        "name": "Peng Cheng",
-        "first": "Peng",
-        "last": "Cheng",
-        "signedIn": true,
-        "id": "ChengP",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -199,12 +199,22 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "CoxT": {
-        "name": "Trey Cox",
-        "first": "Trey",
-        "last": "Cox",
+    "ClarkN": {
+        "name": "Nicholas Clark",
+        "first": "Nicholas",
+        "last": "Clark",
         "signedIn": true,
-        "id": "CoxT",
+        "id": "ClarkN",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "ClarkE": {
+        "name": "Ethan Clark",
+        "first": "Ethan",
+        "last": "Clark",
+        "signedIn": true,
+        "id": "ClarkE",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -229,16 +239,6 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "DannS": {
-        "name": "Sierra Dann",
-        "first": "Sierra",
-        "last": "Dann",
-        "signedIn": true,
-        "id": "DannS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "DavisJ": {
         "name": "Justin Davis",
         "first": "Justin",
@@ -255,6 +255,26 @@
         "last": "Deal",
         "signedIn": true,
         "id": "DealJ",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "DelorgeM": {
+        "name": "Michael Delorge",
+        "first": "Michael",
+        "last": "Delorge",
+        "signedIn": true,
+        "id": "DelorgeM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "DonnellyP": {
+        "name": "Payton Donnelly",
+        "first": "Payton",
+        "last": "Donnelly",
+        "signedIn": true,
+        "id": "DonnellyP",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -320,31 +340,11 @@
         "dest": "null"
     },
     "FengS": {
-        "name": "Sanyu (Andy) Feng",
-        "first": "Sanyu (Andy)",
+        "name": "Sanyu Feng",
+        "first": "Sanyu",
         "last": "Feng",
         "signedIn": true,
         "id": "FengS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "FergusonN": {
-        "name": "Nathaniel Ferguson",
-        "first": "Nathaniel",
-        "last": "Ferguson",
-        "signedIn": true,
-        "id": "FergusonN",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "FioriA": {
-        "name": "Anthony Fiori",
-        "first": "Anthony",
-        "last": "Fiori",
-        "signedIn": true,
-        "id": "FioriA",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -409,19 +409,29 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "GarverP": {
-        "name": "Parrish Garver",
-        "first": "Parrish",
-        "last": "Garver",
+    "FrizzleR": {
+        "name": "Rachel Frizzle",
+        "first": "Rachel",
+        "last": "Frizzle",
         "signedIn": true,
-        "id": "GarverP",
+        "id": "FrizzleR",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "FrostL": {
+        "name": "Lydian Frost",
+        "first": "Lydian",
+        "last": "Frost",
+        "signedIn": true,
+        "id": "FrostL",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
     },
     "GaugL": {
-        "name": "Leif Gaug",
-        "first": "Leif",
+        "name": "Lif Gaug",
+        "first": "Lif",
         "last": "Gaug",
         "signedIn": true,
         "id": "GaugL",
@@ -439,32 +449,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "GereN": {
-        "name": "Nate Gere",
-        "first": "Nate",
-        "last": "Gere",
-        "signedIn": true,
-        "id": "GereN",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "GilleyS": {
         "name": "Scott Gilley",
         "first": "Scott",
         "last": "Gilley",
         "signedIn": true,
         "id": "GilleyS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "GirouxW": {
-        "name": "Wyatt Giroux",
-        "first": "Wyatt",
-        "last": "Giroux",
-        "signedIn": true,
-        "id": "GirouxW",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -479,12 +469,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "GoodwinK": {
-        "name": "Kiana Goodwin",
-        "first": "Kiana",
-        "last": "Goodwin",
+    "GirouxW": {
+        "name": "Wyatt Giroux",
+        "first": "Wyatt",
+        "last": "Giroux",
         "signedIn": true,
-        "id": "GoodwinK",
+        "id": "GirouxW",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -569,26 +559,6 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "HeplerI": {
-        "name": "Irja Hepler",
-        "first": "Irja",
-        "last": "Hepler",
-        "signedIn": true,
-        "id": "HeplerI",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "HetzlerL": {
-        "name": "Luisa Hetzler",
-        "first": "Luisa",
-        "last": "Hetzler",
-        "signedIn": true,
-        "id": "HetzlerL",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "HodgkinsA": {
         "name": "Abigail Hodgkins",
         "first": "Abigail",
@@ -609,6 +579,16 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "JeonY": {
+        "name": "Yeowon Jeon",
+        "first": "Yeowon",
+        "last": "Jeon",
+        "signedIn": true,
+        "id": "JeonY",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "JohnsonG": {
         "name": "George Johnson",
         "first": "George",
@@ -619,12 +599,32 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "JohnsonA": {
-        "name": "Allison Johnson",
-        "first": "Allison",
-        "last": "Johnson",
+    "JooT": {
+        "name": "Taesu Joo",
+        "first": "Taesu",
+        "last": "Joo",
         "signedIn": true,
-        "id": "JohnsonA",
+        "id": "JooT",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "JungH": {
+        "name": "Hyeyun Jung",
+        "first": "Hyeyun",
+        "last": "Jung",
+        "signedIn": true,
+        "id": "JungH",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "KangD": {
+        "name": "Dongwon Kang",
+        "first": "Dongwon",
+        "last": "Kang",
+        "signedIn": true,
+        "id": "KangD",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -639,16 +639,6 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "Keith­HardyP": {
-        "name": "Paddy Keith­Hardy",
-        "first": "Paddy",
-        "last": "Keith­Hardy",
-        "signedIn": true,
-        "id": "Keith­HardyP",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "KelleyE": {
         "name": "Ethan Kelley",
         "first": "Ethan",
@@ -659,22 +649,22 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "KennedyH": {
-        "name": "Hui Kennedy",
-        "first": "Hui",
-        "last": "Kennedy",
-        "signedIn": true,
-        "id": "KennedyH",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "KihnN": {
         "name": "Naomi Kihn",
         "first": "Naomi",
         "last": "Kihn",
         "signedIn": true,
         "id": "KihnN",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "KirmaniD": {
+        "name": "Daniel Kirmani",
+        "first": "Daniel",
+        "last": "Kirmani",
+        "signedIn": true,
+        "id": "KirmaniD",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -699,6 +689,16 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "KweonH": {
+        "name": "HyoJu Kweon",
+        "first": "HyoJu",
+        "last": "Kweon",
+        "signedIn": true,
+        "id": "KweonH",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "LachanceS": {
         "name": "Sawyer Lachance",
         "first": "Sawyer",
@@ -719,12 +719,32 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "LauT": {
+        "name": "Tszchun Lau",
+        "first": "Tszchun",
+        "last": "Lau",
+        "signedIn": true,
+        "id": "LauT",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "LeonardM": {
         "name": "Madison Leonard",
         "first": "Madison",
         "last": "Leonard",
         "signedIn": true,
         "id": "LeonardM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "LesterT": {
+        "name": "Thomasina Lester",
+        "first": "Thomasina",
+        "last": "Lester",
+        "signedIn": true,
+        "id": "LesterT",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -739,6 +759,16 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "LoebA": {
+        "name": "Anna Loeb",
+        "first": "Anna",
+        "last": "Loeb",
+        "signedIn": true,
+        "id": "LoebA",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "LondonR": {
         "name": "Rachel London",
         "first": "Rachel",
@@ -749,9 +779,19 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "LongobardiC": {
+        "name": "Christian Longobardi",
+        "first": "Christian",
+        "last": "Longobardi",
+        "signedIn": true,
+        "id": "LongobardiC",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "LuceH": {
-        "name": "Hayleigh Luce",
-        "first": "Hayleigh",
+        "name": "Haileigh Luce",
+        "first": "Haileigh",
         "last": "Luce",
         "signedIn": true,
         "id": "LuceH",
@@ -779,12 +819,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "MaloneyA": {
-        "name": "Atticus Maloney",
-        "first": "Atticus",
-        "last": "Maloney",
+    "MarstonS": {
+        "name": "Sumner Marston",
+        "first": "Sumner",
+        "last": "Marston",
         "signedIn": true,
-        "id": "MaloneyA",
+        "id": "MarstonS",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -795,6 +835,26 @@
         "last": "Martin",
         "signedIn": true,
         "id": "MartinI",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "MazeA": {
+        "name": "Ashton Maze",
+        "first": "Ashton",
+        "last": "Maze",
+        "signedIn": true,
+        "id": "MazeA",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "McCarthyM": {
+        "name": "Madison McCarthy",
+        "first": "Madison",
+        "last": "McCarthy",
+        "signedIn": true,
+        "id": "McCarthyM",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -819,32 +879,32 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "MeagherM": {
+        "name": "Molly Meagher",
+        "first": "Molly",
+        "last": "Meagher",
+        "signedIn": true,
+        "id": "MeagherM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "Medina- RamirezA": {
+        "name": "Ana Medina- Ramirez",
+        "first": "Ana",
+        "last": "Medina- Ramirez",
+        "signedIn": true,
+        "id": "Medina- RamirezA",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "MichaudS": {
         "name": "Sasha Michaud",
         "first": "Sasha",
         "last": "Michaud",
         "signedIn": true,
         "id": "MichaudS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "MillardK": {
-        "name": "Kendal Millard",
-        "first": "Kendal",
-        "last": "Millard",
-        "signedIn": true,
-        "id": "MillardK",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "MollyM": {
-        "name": "Meagher Molly",
-        "first": "Meagher",
-        "last": "Molly",
-        "signedIn": true,
-        "id": "MollyM",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -859,22 +919,22 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "MooreV": {
-        "name": "Victoria Moore",
-        "first": "Victoria",
-        "last": "Moore",
-        "signedIn": true,
-        "id": "MooreV",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "MooreS": {
         "name": "Sophie Moore",
         "first": "Sophie",
         "last": "Moore",
         "signedIn": true,
         "id": "MooreS",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "MooreV": {
+        "name": "Victoria Moore",
+        "first": "Victoria",
+        "last": "Moore",
+        "signedIn": true,
+        "id": "MooreV",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -889,12 +949,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "Moynihan-­StevensH": {
-        "name": "Hailey Moynihan-­Stevens",
+    "Moynihan-StevensH": {
+        "name": "Hailey Moynihan-Stevens",
         "first": "Hailey",
-        "last": "Moynihan-­Stevens",
+        "last": "Moynihan-Stevens",
         "signedIn": true,
-        "id": "Moynihan-­StevensH",
+        "id": "Moynihan-StevensH",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -940,8 +1000,8 @@
         "dest": "null"
     },
     "NiB": {
-        "name": "Baoyi (Ronald) Ni",
-        "first": "Baoyi (Ronald)",
+        "name": "Baoyi Ni",
+        "first": "Baoyi",
         "last": "Ni",
         "signedIn": true,
         "id": "NiB",
@@ -949,22 +1009,22 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "NielsenP": {
-        "name": "Peter Nielsen",
-        "first": "Peter",
-        "last": "Nielsen",
+    "OestreicherA": {
+        "name": "Andrew Oestreicher",
+        "first": "Andrew",
+        "last": "Oestreicher",
         "signedIn": true,
-        "id": "NielsenP",
+        "id": "OestreicherA",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
     },
-    "OestreicherA": {
-        "name": "Andrew (Reed) Oestreicher",
-        "first": "Andrew (Reed)",
-        "last": "Oestreicher",
+    "OhJ": {
+        "name": "Jeonghoon Oh",
+        "first": "Jeonghoon",
+        "last": "Oh",
         "signedIn": true,
-        "id": "OestreicherA",
+        "id": "OhJ",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -979,22 +1039,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "ParrottS": {
-        "name": "Samuel Parrott",
-        "first": "Samuel",
-        "last": "Parrott",
+    "PerkinsW": {
+        "name": "William Perkins",
+        "first": "William",
+        "last": "Perkins",
         "signedIn": true,
-        "id": "ParrottS",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "PearceH": {
-        "name": "Harrison Pearce",
-        "first": "Harrison",
-        "last": "Pearce",
-        "signedIn": true,
-        "id": "PearceH",
+        "id": "PerkinsW",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1019,32 +1069,22 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "PikeR": {
-        "name": "Rachel Pike",
-        "first": "Rachel",
-        "last": "Pike",
-        "signedIn": true,
-        "id": "PikeR",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "PolavaramT": {
-        "name": "Trilok Polavaram",
-        "first": "Trilok",
-        "last": "Polavaram",
-        "signedIn": true,
-        "id": "PolavaramT",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "ProvencalK": {
         "name": "Kyle Provencal",
         "first": "Kyle",
         "last": "Provencal",
         "signedIn": true,
         "id": "ProvencalK",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "PruiksmaQ": {
+        "name": "Quinn Pruiksma",
+        "first": "Quinn",
+        "last": "Pruiksma",
+        "signedIn": true,
+        "id": "PruiksmaQ",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1060,8 +1100,8 @@
         "dest": "null"
     },
     "RawsonA": {
-        "name": "Andie Rawson",
-        "first": "Andie",
+        "name": "Andrea Rawson",
+        "first": "Andrea",
         "last": "Rawson",
         "signedIn": true,
         "id": "RawsonA",
@@ -1099,6 +1139,36 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "RethmanB": {
+        "name": "Brooke Rethman",
+        "first": "Brooke",
+        "last": "Rethman",
+        "signedIn": true,
+        "id": "RethmanB",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "RileyK": {
+        "name": "Kathryn Riley",
+        "first": "Kathryn",
+        "last": "Riley",
+        "signedIn": true,
+        "id": "RileyK",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "SamardzicM": {
+        "name": "Milica Samardzic",
+        "first": "Milica",
+        "last": "Samardzic",
+        "signedIn": true,
+        "id": "SamardzicM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "SerbanC": {
         "name": "Claudia Serban",
         "first": "Claudia",
@@ -1129,12 +1199,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "Sha’afiH": {
-        "name": "Hannah Sha’afi",
+    "Sha'afiH": {
+        "name": "Hannah Sha'afi",
         "first": "Hannah",
-        "last": "Sha’afi",
+        "last": "Sha'afi",
         "signedIn": true,
-        "id": "Sha’afiH",
+        "id": "Sha'afiH",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1179,12 +1249,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "SoV": {
-        "name": "Victor So",
-        "first": "Victor",
-        "last": "So",
+    "SmithE": {
+        "name": "Elyana Smith",
+        "first": "Elyana",
+        "last": "Smith",
         "signedIn": true,
-        "id": "SoV",
+        "id": "SmithE",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1199,19 +1269,19 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "SondermanI": {
-        "name": "Ian Sonderman",
-        "first": "Ian",
-        "last": "Sonderman",
+    "StillionE": {
+        "name": "Emily Stillion",
+        "first": "Emily",
+        "last": "Stillion",
         "signedIn": true,
-        "id": "SondermanI",
+        "id": "StillionE",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
     },
     "StreetM": {
-        "name": "Maggie Street",
-        "first": "Maggie",
+        "name": "Margaret Street",
+        "first": "Margaret",
         "last": "Street",
         "signedIn": true,
         "id": "StreetM",
@@ -1249,6 +1319,16 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "TanguayD": {
+        "name": "Dolcie Tanguay",
+        "first": "Dolcie",
+        "last": "Tanguay",
+        "signedIn": true,
+        "id": "TanguayD",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "TaskerM": {
         "name": "Morgan Tasker",
         "first": "Morgan",
@@ -1269,16 +1349,6 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "TerhuneH": {
-        "name": "Henry Terhune",
-        "first": "Henry",
-        "last": "Terhune",
-        "signedIn": true,
-        "id": "TerhuneH",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
     "TheriaultE": {
         "name": "Edmond Theriault",
         "first": "Edmond",
@@ -1289,32 +1359,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "TompsonB": {
-        "name": "Bridget Tompson",
-        "first": "Bridget",
-        "last": "Tompson",
+    "TunW": {
+        "name": "William Tun",
+        "first": "William",
+        "last": "Tun",
         "signedIn": true,
-        "id": "TompsonB",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "TrueM": {
-        "name": "Morgan True",
-        "first": "Morgan",
-        "last": "True",
-        "signedIn": true,
-        "id": "TrueM",
-        "timeOut": 0,
-        "dateOut": 0,
-        "dest": "null"
-    },
-    "TungE": {
-        "name": "Emmanuel Tung",
-        "first": "Emmanuel",
-        "last": "Tung",
-        "signedIn": true,
-        "id": "TungE",
+        "id": "TunW",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1329,12 +1379,12 @@
         "dateOut": 0,
         "dest": "null"
     },
-    "WallaceC": {
-        "name": "Caleb Wallace",
-        "first": "Caleb",
-        "last": "Wallace",
+    "WalkerA": {
+        "name": "Alora Walker",
+        "first": "Alora",
+        "last": "Walker",
         "signedIn": true,
-        "id": "WallaceC",
+        "id": "WalkerA",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1345,6 +1395,26 @@
         "last": "Walsh",
         "signedIn": true,
         "id": "WalshM",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "WaltersH": {
+        "name": "Harrison Walters",
+        "first": "Harrison",
+        "last": "Walters",
+        "signedIn": true,
+        "id": "WaltersH",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
+    "WhiteK": {
+        "name": "Katherine White",
+        "first": "Katherine",
+        "last": "White",
+        "signedIn": true,
+        "id": "WhiteK",
         "timeOut": 0,
         "dateOut": 0,
         "dest": "null"
@@ -1429,6 +1499,16 @@
         "dateOut": 0,
         "dest": "null"
     },
+    "ZimbaD": {
+        "name": "Drake Zimba",
+        "first": "Drake",
+        "last": "Zimba",
+        "signedIn": true,
+        "id": "ZimbaD",
+        "timeOut": 0,
+        "dateOut": 0,
+        "dest": "null"
+    },
     "ZimmermanH": {
         "name": "Hannah Zimmerman",
         "first": "Hannah",
@@ -1440,13 +1520,13 @@
         "dest": "null"
     },
     "ZweckerS": {
-        "name": "Sam Zwecker",
-        "first": "Sam",
+        "name": "Samantha Zwecker",
+        "first": "Samantha",
         "last": "Zwecker",
         "signedIn": true,
         "id": "ZweckerS",
-        "timeOut": "17:42",
-        "dateOut": "05/17/2017",
+        "timeOut": 0,
+        "dateOut": 0,
         "dest": "null"
     }
 }
