@@ -1,3 +1,7 @@
+/* convert student csv in format lastname, firstname to studentdir.json with this regex
+match: (.+)( )(.)(.+)
+replace: "$1$3": {\n\t"name":"$3$4 $1",\n\t"first": "$3$4",\n\t"last": "$1", \n\t"signedIn": true,\n\t"id": "$1$3",\n\t"timeOut": 0,\n\t"dateOut": 0,\n\t"dest": "null"\n},\n
+*/
 var url = require('url-parse');
 var express = require('express');
 var app = express();
